@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-basic",
+  "version": "1.0.0",
+  "description": "nodeJS-basic",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [
+    "node",
+    "node.js"
+  ],
+  "author": "Volodymyr Roiukr <V@mail.ru>",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0"
+  }
+}
